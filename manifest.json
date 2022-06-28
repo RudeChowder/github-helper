@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Github Helper",
+  "version": "1.0",
+
+  "description": "Adds useful features to Github",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/powerhome/nitro-web/pull/*"],
+      "js": ["github.js"]
+    }
+  ]
+}
