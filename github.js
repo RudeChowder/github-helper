@@ -3,7 +3,7 @@ const createTabs = () => {
 
   // const buildCount = document.querySelectorAll(".commit-build-statuses").length
   const ciTab = document.createElement("a")
-  ciTab.href = `https://ci.powerapp.cloud/job/PowerHome-Org/job/nitro-web/job/PR-${prNumber}/`
+  ciTab.href = `https://ci.powerapp.cloud/job/powerhome/job/nitro-web/job/PR-${prNumber}/`
   ciTab.innerText = "CI"
   ciTab.className = "tabnav-tab flex-shrink-0 pl-5 ml-5 "
   ciTab.target = "_blank"
